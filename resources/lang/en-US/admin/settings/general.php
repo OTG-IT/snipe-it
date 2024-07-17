@@ -283,6 +283,8 @@ return [
     'vertical'        => 'vertical',
     'horizontal'        => 'horizontal',
     'unique_serial'                => 'Unique serial numbers',
+    'required_serial'   => 'Require Serial numbers',
+    'require_serial_help_text'                => 'Checking this box will enforce all assets to require a serial.',
     'unique_serial_help_text'                => 'Checking this box will enforce a uniqueness constraint on asset serials',
     'zerofill_count'        => 'Length of asset tags, including zerofill',
     'username_format_help'   => 'This setting will only be used by the import process if a username is not provided and we have to generate a username for you.',
@@ -375,6 +377,7 @@ return [
     'timezone' => 'Timezone',
     'profile_edit'          => 'Edit Profile',
     'profile_edit_help'          => 'Allow users to edit their own profiles.',
+    'required_serial_error' => 'All current assets must have a serial before you can select this option. There are currently :count Assets without serials.',
+    'unique_serial_error'   => 'All current assets must have a unique serial before you can select this option. There are currently :count Assets with duplicate or empty serials.',
     'default_avatar' => 'Upload default avatar',
-
 ];
