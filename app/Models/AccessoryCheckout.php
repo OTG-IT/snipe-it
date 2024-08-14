@@ -24,7 +24,7 @@ class AccessoryCheckout extends Model
 
     protected $fillable = ['user_id', 'accessory_id', 'assigned_to', 'assigned_type', 'note'];
     protected $table = 'accessories_checkout';
-    
+
     /**
      * Establishes the accessory checkout -> accessory relationship
      *
