@@ -968,7 +968,6 @@ class Asset extends Depreciable
         }
         return $cost;
     }
-
     /**
      * -----------------------------------------------
      * BEGIN MUTATORS
